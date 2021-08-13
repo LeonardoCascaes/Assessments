@@ -10,5 +10,6 @@ namespace Data.Models
     {
         public string Type { get; set; }
         public string Description { get; set; }
+        public List<Test> ListTest { get; set; }
     }
 }
