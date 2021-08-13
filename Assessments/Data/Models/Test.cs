@@ -13,5 +13,7 @@ namespace Data.Models
         public float Time { get; set; }
         public byte Result { get; set; }
         public List<Skill> ListSkill { get; set; }
+        public List<Criteria> ListCriteria { get; set; }
+        public Criteria Criteria { get; set; }
     }
 }
