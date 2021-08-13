@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public abstract class BaseModels
+    public abstract class Base
     {
         public int Id { get; set; }
     }

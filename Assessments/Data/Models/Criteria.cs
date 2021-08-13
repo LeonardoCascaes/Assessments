@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    public class Criteria : BaseModels
+    public class Criteria : Base
     {
         public string Type { get; set; }
         public string Description { get; set; }
