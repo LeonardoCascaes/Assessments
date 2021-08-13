@@ -11,5 +11,6 @@ namespace Data.Models
         public string Type { get; set; }
         public string Name { get; set; }
         public byte Grade { get; set; }
+        public List<Test> Test { get; set; }
     }
 }

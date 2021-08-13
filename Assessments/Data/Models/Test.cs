@@ -12,5 +12,7 @@ namespace Data.Models
         public DateTime Date { get; set; }
         public float Time { get; set; }
         public byte Result { get; set; }
+        public Skill Skill { get; set; }
+        public List<Skill> ListSkill { get; set; }
     }
 }
