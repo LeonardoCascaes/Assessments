@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Data.Models
 {
-    class Phase
+    public class Phase
     {
+        public string Nome { get; set; }
+        public bool Status { get; set; }
     }
 }
