@@ -7,13 +7,13 @@ namespace Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class CreateTableTest : IMigrationMetadata
+    public sealed partial class CreateFKSkillInCriteria : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateTableTest));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateFKSkillInCriteria));
         
         string IMigrationMetadata.Id
         {
-            get { return "202108132005542_CreateTableTest"; }
+            get { return "202108161227449_CreateFKSkillInCriteria"; }
         }
         
         string IMigrationMetadata.Source
